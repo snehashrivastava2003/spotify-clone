@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTIFY-Play on Binge!!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify logo.png" alt="Spotify">Spotify</li>
+            <li> HOME</li>
+            <li>ABOUT</li>
+
+        </ul>
+    </nav>
+<div class="container">
+    <div class ="SONGLIST">
+        <h1>!!PLAY THE SONGS!!</h1>
+        <div class="songItemContainer">
+            <img src="img1.jpg" alt="1">
+            <div class="songItems">
+               <span  class="songName">BARBADIYAAN</span>
+                <span class="songlistplay"><span class="timestamp"><i id="1" class='bx songsItemPlay bx-play-circle'></i></span>
+                </span>
+            </div>
+        </div>
+        <div>
+            <img src="img2.jpg" alt="2">
+            <div class="songItems">
+                <span  class="songName">JAI HO</span>
+                <span class="songlistplay"><span class="timestamp"><i id="2" class='bx songsItemPlay bx-play-circle'></i></span>
+                </span>
+            </div>
+        </div>
+        <div>
+            <img src="img4.jpg" alt="3">
+            <div class="songItems">
+                <span  class="songName">MANIKA</span>
+                <span class="songlistplay"><span class="timestamp"><i id="3"class='bx songsItemPlay bx-play-circle'></i></span>
+                </span>
+            </div>
+        </div>
+        <div>
+            <img src="img3.jpg" alt="4">
+            <div class="songItems">
+                <span  class="songName">KESARIYA</span>
+                <span class="songlistplay"><span class="timestamp"><i id="4" class='bx songsItemPlay bx-play-circle'></i></span>
+                </span>
+            </div>
+        </div>
+        <div>
+            <img src="img5.jpg" alt="5">
+            <div class="songItems">
+                <span  class="songName">RADHE RADHE</span>
+                <span class="songlistplay"><span class="timestamp"><i id="5" class='bx songsItemPlay bx-play-circle'></i></span>
+                </span>
+            </div>
+        </div>
+        <div>
+            <img  src="img6.jpg"alt="6">
+            <div class="songItems">
+                <span  class="songName">Oo ANTAVA</span>
+                <span class="songlistplay"><span class="timestamp"><i id="6" class='bx songsItemPlay bx-play-circle'></i></span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="SONGBANNER"></div>
+</div>
+
+<div class="bottom">
+    <input type="range" name="range" id="myprogressBar" min="0" val="0" max="100">
+    <div class="icons">
+        <i class='bx bx-rewind' id="previous"></i>
+        <i class='bx bx-play-circle' id="masterPlay"></i>
+        <i class='bx bx-fast-forward' id="next"></i>
+    </div>
+    <div class="SONGINFO">
+        <img src="music.gif" width="42px"alt="" id="gif"><span id="masterSongName">BARBADDIYAAN</span>
+
+    </div>
+</div>
+    <script src="script.js"></script> 
+</body>
+</html>
